@@ -2,7 +2,8 @@
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {  "master-detail": {
       "description": "A blank schematic.",
-      "factory": "./master-detail/index#masterDetail"
+      "factory": "./master-detail/index#masterDetail",
+      "schema": "./master-detail/schema.json"
     }
   }
 }

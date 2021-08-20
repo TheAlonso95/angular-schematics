@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "id": "SchematicsMasterDetailComponent",
+    "title": "Master detail Schema",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "Feature Name",
+        "x-prompt": "What is the feature name?"
+      }
+    },
+    "required": ["name"]
+  }

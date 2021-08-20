@@ -110,7 +110,7 @@
     "@angular-devkit/architect" "0.1202.2"
     rxjs "6.6.7"
 
-"@angular-devkit/core@12.2.2":
+"@angular-devkit/core@12.2.2", "@angular-devkit/core@^12.2.2":
   version "12.2.2"
   resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-12.2.2.tgz#48e8f627abf54474b885c75ac8ae48dc076d62cb"
   integrity sha512-iaPQc0M9FZWvE4MmxRFm5qFNBefvyN7H96pQIIPqT2yalSoiWv1HeQg/OS0WY61lvFPSHnR1n4DZsHCvLdZrFA==
@@ -122,7 +122,7 @@
     rxjs "6.6.7"
     source-map "0.7.3"
 
-"@angular-devkit/schematics@12.2.2":
+"@angular-devkit/schematics@12.2.2", "@angular-devkit/schematics@^12.2.2":
   version "12.2.2"
   resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-12.2.2.tgz#bfeaddcd161b9491fa30c1f018d0d835a27b8e9a"
   integrity sha512-KHPxZCSCbVFjaIlBMaxnoA96FnU62HDk8TpWRSnQY2dIkvEUU7+9UmWVodISaQ+MIYur35bFHPJ19im0YkR0tg==
@@ -4662,6 +4662,14 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
+master-detail@./master-detail/master-detail-0.0.0.tgz:
+  version "0.0.0"
+  resolved "./master-detail/master-detail-0.0.0.tgz#6aef267c2ccad63d5b587056216c5646c849a1bf"
+  dependencies:
+    "@angular-devkit/core" "^12.2.2"
+    "@angular-devkit/schematics" "^12.2.2"
+    typescript "~4.3.2"
+
 mdn-data@2.0.14:
   version "2.0.14"
   resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.14.tgz#7113fc4281917d63ce29b43446f701e68c25ba50"
@@ -6591,6 +6599,25 @@ schema-utils@^3.0.0, schema-utils@^3.1.0:
     ajv "^6.12.5"
     ajv-keywords "^3.5.2"
 
+schematics-app@./schematics-app-v0.0.0.tgz:
+  version "0.0.0"
+  resolved "./schematics-app-v0.0.0.tgz#d97b8a4b13d42ce1dfe223cb6f911793de90488e"
+  dependencies:
+    "@angular/animations" "~12.2.0"
+    "@angular/cdk" "12.2.2"
+    "@angular/common" "~12.2.0"
+    "@angular/compiler" "~12.2.0"
+    "@angular/core" "~12.2.0"
+    "@angular/forms" "~12.2.0"
+    "@angular/material" "12.2.2"
+    "@angular/platform-browser" "~12.2.0"
+    "@angular/platform-browser-dynamic" "~12.2.0"
+    "@angular/router" "~12.2.0"
+    "@ngrx/store" "^12.4.0"
+    rxjs "~6.6.0"
+    tslib "^2.3.0"
+    zone.js "~0.11.4"
+
 select-hose@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/select-hose/-/select-hose-2.0.0.tgz#625d8658f865af43ec962bfc376a37359a4994ca"
@@ -7316,7 +7343,7 @@ type-is@~1.6.17, type-is@~1.6.18:
     media-typer "0.3.0"
     mime-types "~2.1.24"
 
-typescript@4.3.5, typescript@~4.3.5:
+typescript@4.3.5, typescript@~4.3.2, typescript@~4.3.5:
   version "4.3.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.3.5.tgz#4d1c37cc16e893973c45a06886b7113234f119f4"
   integrity sha512-DqQgihaQ9cUrskJo9kIyW/+g0Vxsk8cDtZ52a3NGh0YNTfpUSArXSohyUGnvbPazEPLu398C0UxmKSOrPumUzA==

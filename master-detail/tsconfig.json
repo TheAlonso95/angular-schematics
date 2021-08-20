@@ -17,6 +17,7 @@
     "sourceMap": true,
     "strictNullChecks": true,
     "target": "es6",
+    "experimentalDecorators": true,
     "types": ["jasmine", "node"]
   },
   "include": ["src/**/*"],
