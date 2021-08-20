@@ -21,7 +21,7 @@
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
     "@ngrx/store": "^12.4.0",
-    "master-detail": "./master-detail/master-detail-0.0.0.tgz",
+    "master-detail": "./master-detail/master-detail-0.0.1.tgz",
     "rxjs": "~6.6.0",
     "schematics-app": "./schematics-app-v0.0.0.tgz",
     "tslib": "^2.3.0",
